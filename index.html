@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS STUFF-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Quote Garden Client</title>
+</head>
+<body>
+    <h1 id="app-title">Paolinsky Quote Garden Client</h1>
+    <div class="search-container">
+        <div class="search-bar-button">
+            <input placeholder="Search" type="text" name="searchString" id="search-bar">
+            <input class="button" id="search-button" type="button" value="Search">
+        </div>
+        <input class="button" id="random-button" type="button" value="Random">
+    </div>
+    <div id="app">
+        <h2 id="title"></h2>
+        <div id="all-cards-container"></div>
+    </div>
+
+    <footer>
+        <p>Made with love by Paolinsky</p>
+    </footer>
+
+    <script src="src/index.js" type="module"></script>
+</body>
+</html>

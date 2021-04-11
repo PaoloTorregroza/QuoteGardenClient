@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #172e5f;
+}
+
+#app-title {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  padding: 12px;
+  color: whitesmoke;
+  background: #2770f1;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  background-color: #f0f0f0;
+}
+
+.search-bar-button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  padding: 16px;
+  margin: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#app-title {
+  padding: 28px;
+}
+
+#title {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#all-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#search-bar {
+  margin-right: 8px;
+  padding: 10px;
+  padding-right: 25px;
+  background: url("../assets/search.png") right no-repeat;
+  background-position-x: 97%;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  outline-style: none;
+  border: none;
+  min-width: 30%;
+}
+
+#random-button {
+  width: 200px;
+  margin-top: 16px;
+  background-color: white;
+  color: black;
+  align-self: center;
+}
+
+.button:hover {
+  border: 2px solid #172e5f;
+}
+
+.quote-category {
+  margin: 8px 0px 16px 0px;
+  padding: 8px;
+  background-color: #2770f1;
+  border-radius: 18px;
+  padding: 6px 18px 6px 18px;
+  align-self: center;
+  color: whitesmoke;
+}
+
+.quote-author {
+  margin-top: 16px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer > p {
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+  color: lightblue;
+}
+
+.no-quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-quotes > h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.not-found-image {
+  width: 50%;
+  align-self: center;
+  margin: 24px;
+}
+
+@media screen and (max-width: 650px) {
+  .card-container {
+    width: 75%;
+  }
+}
